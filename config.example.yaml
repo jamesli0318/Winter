@@ -1,0 +1,21 @@
+discovery:
+  keywords:
+    - "Winter aespa"
+    - "윈터 에스파"
+    - "ウィンター aespa"
+    - "aespa winter fan"
+    - "김민정 에스파"
+  min_followers: 500
+  min_winter_ratio: 0.25
+  max_accounts: 25
+  rescan_interval_days: 7
+
+telegram:
+  chat_id: "your_telegram_chat_id"
+
+timezone: "Asia/Taipei"
+
+manual_include:
+  - "aespa_official"
+
+manual_exclude: []
