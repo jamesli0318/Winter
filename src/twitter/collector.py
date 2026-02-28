@@ -118,8 +118,8 @@ async def _fetch_account_tweets(
         if not tweet_id:
             continue
 
-        # News accounts: only keep Winter-relevant tweets
-        if account.account_type == AccountType.NEWS and not _is_winter_relevant(text):
+        # Only keep Winter-relevant tweets (all accounts)
+        if not _is_winter_relevant(text):
             continue
 
         # Dedup via cache
